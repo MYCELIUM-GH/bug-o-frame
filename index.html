@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
+    <title>Your best (un)broken tool</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   </head>
   <body>
-    
+    <div id="container">
+      <script type="text/babel">
+        ReactDOM.render(
+          <h1>Main Page</h1>,
+          document.getElementById('container')
+        ) 
+        </script>
+    </div>
   </body>
 </html>
